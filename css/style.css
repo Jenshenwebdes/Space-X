@@ -87,7 +87,6 @@ body {
   max-width: 1230px;
   width: 90%;
   margin: auto;
-  padding: 100px 0;
 }
 
 .features-title {
@@ -97,6 +96,7 @@ body {
   line-height: 140%;
   text-transform: uppercase;
   margin-bottom: 45px;
+  margin-top: 492px;
 }
 
 .table {
@@ -125,4 +125,58 @@ body {
   top: 100px;
   right: 0;
   z-index: 99;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 550px;
+  margin: auto;
+  margin-top: 507px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.link {
+  margin-right: 20px;
+}
+
+.email {
+  align-self: center;
+  margin: 0;
+  margin-top: 28px;
+}
+
+.contact {
+  align-self: center;
+}
+
+.contact-button {
+  width: 260px;
+  height: 60px;
+  align-self: center;
+  margin-top: 30px;
+  color: #ffffff;
+  background-color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 6px;
 }
